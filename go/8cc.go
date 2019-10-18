@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+const (
+	BUFLEN = 256
+)
+
 func main() {
 	var val int
 	_, err := fmt.Scanf("%d", &val)
